@@ -1,3 +1,6 @@
+*Ausência de arquivos de teste e de uma build de produção devido a uma série de erros relacionados ao Sanity e ao Jest, estes que infelizmente não consegui solucionar.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
