@@ -188,6 +188,10 @@
     .rightPac {
         height: 230px;
     }
+
+    .gameLink {
+        max-height: 313px;
+    }
 }
 
 
@@ -248,6 +252,10 @@
     .aboutTitleHome {
         max-width: 1024px;
     }
+
+    .gameLink {
+        max-height: 313px;
+    }
 }
 
 @media screen and (max-width: 912px) {
@@ -273,6 +281,10 @@
     .aboutTitle {
         font-size: 0.3em;
         max-width: 820px;
+    }
+
+    .gameLink {
+        max-height: 313px;
     }
 
     .aboutText {
@@ -313,8 +325,12 @@
 
 @media screen and (max-width: 540px) {
     .section {
-        max-height: 403px;
+        height: 403px;
         margin-bottom: 80px;
+    }
+
+    .gameLink {
+        max-height: 243px;
     }
 
     .bigPac {
@@ -333,16 +349,16 @@
         height: 160px;
     }
 
-    .aboutTitle{
+    .aboutTitle {
         font-size: 0.25em;
     }
 
-    .about{
+    .about {
         flex-direction: column-reverse;
         transform: translateX(85px);
     }
 
-    .aboutText{
+    .aboutText {
         padding: 0;
         max-width: 400px;
         margin: 0;
@@ -351,121 +367,125 @@
         margin-top: 10px;
     }
 
-    .fliperama{
+    .fliperama {
         width: 400px;
         height: 300px;
         margin: 0;
     }
 
-    .aboutTitle{
+    .aboutTitle {
         max-width: 540px;
         padding-left: 50px;
     }
 
-    .proCard{
+    .proCard {
         margin-left: -230px;
         margin-top: 60px;
     }
 
-    .carreira{
+    .carreira {
         font-size: 0.3em;
     }
 
-    .aboutTitleHome{
+    .aboutTitleHome {
         max-width: 540px;
     }
 
-    .home{
+    .home {
         transform: translateX(-25px);
     }
 }
 
 @media screen and (max-width: 430px) {
-    .homeContainer{
+    .homeContainer {
         margin-left: -60px;
     }
 
-    .bigPac{
+    .bigPac {
         width: 280px;
         height: 143px;
     }
 
-    .leftPac{
+    .leftPac {
         height: 80px;
         width: 90px;
     }
 
-    .middlePac{
+    .middlePac {
         height: 80px;
         width: 90px;
     }
 
-    .rightPac{
+    .rightPac {
         height: 80px;
         width: 90px;
     }
 
-    .section{
+    .section {
         height: 228px;
         width: 280px;
         margin-left: 85px;
     }
 
-    .carrossel{
+    .carrossel {
         width: 280px;
     }
 
-    .fliperama{
+    .fliperama {
         width: 260px;
         height: 280px;
     }
 
-    .aboutText{
+    .aboutText {
         width: 280px;
         font-size: 0.08em;
         font-weight: bold;
     }
 
-    .indent{
+    .indent {
         margin-left: 25px;
     }
 
-    .about{
+    .about {
         width: 280px;
         margin-left: 10px;
     }
 
-    .aboutTitle{
+    .aboutTitle {
         font-size: 0.2em;
         width: 260px;
         margin-left: 70px;
     }
 
-    .aboutTitleHome{
+    .aboutTitleHome {
         font-size: 0.2em;
         width: 260px;
         margin-left: 100px;
         padding: 0;
     }
 
-    .carreira{
+    .carreira {
         font-size: 0.2em;
         width: 430px;
         padding: 0;
         margin-left: 230px;
     }
 
-    .home{
+    .home {
         margin-left: 50px;
         width: 430px;
     }
 
-    .cardArea{
+    .cardArea {
         width: 280px;
         margin-left: 310px;
     }
 
-    .proCard{
+    .proCard {
         margin-bottom: 380px;
+    }
+
+    .gameLink {
+        max-height: 131px;
     }
 }

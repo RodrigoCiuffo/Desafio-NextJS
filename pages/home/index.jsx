@@ -16,7 +16,7 @@ const HomePage = () => {
             {router.pathname === '/home' ? <Header className={styles.headerPosition} /> : null}
             <div className={router.pathname === '/home' ? styles.home : styles.container}>
                 <section className={styles.section} id="games">
-                    <Link href={'/game'}><img alt='Pacman Large' src="/bigPac.png" className={styles.bigPac} /></Link>
+                    <Link className={styles.gameLink} href={'/game'}><img alt='Pacman Large' src="/bigPac.png" className={styles.bigPac} /></Link>
                     <div className={styles.carrossel}>
                         <Link href={'/game'}><img alt='Pacman Left' src="/leftPac.png" className={styles.leftPac} /></Link>
                         <Link href={'/game'}><img alt='Pacman Middle' src="/middlePac.png" className={styles.middlePac} /></Link>
