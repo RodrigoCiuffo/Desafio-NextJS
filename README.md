@@ -1,4 +1,8 @@
 *Ausência de arquivos de teste e de uma build de produção devido a uma série de erros relacionados ao Sanity e ao Jest, estes que infelizmente não consegui solucionar.
+*Adaptações em alguns tamanhos, estilos e posicionamentos se mostraram necessários no processo de ajuste da responsividade
+
+Segue abaixo um link do drive onde é possível visualizar o site em funcionamento, contemplando suas funções, seções e seu comportamento em diferentes tamanhos de tela:
+https://drive.google.com/file/d/1TglH-Xdoo5-uaUtikdEkQ7rbZ89JuU2R/view?usp=drive_link
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
