@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 1440px;
+}
+
+.main {
+    flex-grow: 1;
+    max-width: 1440px;
+    height: 613px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.mainContent {
+    background-color: #023047;
+    max-width: 1240px;
+    color: white;
+    margin: 0 100px;
+}
+
+.main::-webkit-scrollbar {
+    width: 12px;
+}
+
+.main::-webkit-scrollbar-thumb {
+    background-color: #FA8400;
+    border-radius: 6px;
+}
+
+
+
+
+

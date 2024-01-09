@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  background: #023047;
+  font-weight: 400;
+  color: #DFDFE4;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+
+body::-webkit-scrollbar{ /* Achei pertinente estilizar a barra de rolagem para um visual mais condizente com o projeto */
+  width: 12px; 
+} 
+
+body::-webkit-scrollbar-thumb {
+  background-color: #023047;
+  border-radius: 6px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: #023047;
+}
+

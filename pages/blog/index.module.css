@@ -1,0 +1,287 @@
+.postSec {
+    width: 86.11vw;
+    height: 339px;
+    margin-bottom: 100px;
+    max-width: 1240px;
+}
+
+.content{
+    display: flex;
+    width: 1240px;
+    height: 319px;
+}
+
+.imagem {
+    width: 610px;
+    height: 339px;
+}
+
+.secTitle{
+    font-family: 'Press Start 2P';
+    width: 1240px;
+    font-size: 40px;
+    color: #FA8400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.postTitle{
+    font-size: 32px;
+    font-weight: bold;
+    color: #DFDFE4;
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+
+.author{
+    font-size: 16px;
+    color: #DFDFE4;
+    margin-bottom: 20px;
+}
+
+.body{
+    font-size: 20px;
+    color: #DFDFE4;
+    line-height: 32px;
+}
+
+.dataContainer{
+    margin-left: 30px;
+    padding-top: 10px;
+    width: 590px;
+}
+
+.cardSec{
+    height: 700px;
+    width: 1240px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.moveSection{
+    transform: translateX(100px);
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1280px){
+    .postSec{
+        margin-left: -60px;
+    }
+
+    .cardSec{
+        margin-left: -60px;
+    }
+
+    .dataContainer{
+        width: 500px;
+        padding: 0;
+    }
+
+    .moveSection{
+        max-width: 1280px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .secTitle{
+        max-width: 1024px;
+        padding-right: 50px;
+    }
+
+    .content{
+        max-width: 1024px;
+    }
+
+    .imagem{
+        width: 510px;
+        height: 309px;
+    }
+
+    .postTitle{
+        font-size: 0.26em;
+    }
+
+    .body{
+        font-size: 0.16em;
+    }
+
+    .dataContainer{
+        padding: 0;
+        margin-left: 20px;
+        max-width: 460px;
+    }
+
+    .postSec{
+        margin-left: -80px;
+    }
+
+    .cardSec{
+        max-width: 1024px;
+        max-height: 620px;
+    }
+
+    .moveSection{
+        margin-left: 60px;
+    }
+
+    .author{
+        font-size: 0.12em;
+    }
+}
+
+@media screen and (max-width: 912px){
+    .blogSection{
+        transform: translateX(-30px);
+    }
+
+    .imagem{
+        width: 460px;
+        height: 280px;
+    }
+
+    .dataContainer{
+        width: 430px;
+    }
+
+    .body{
+        font-size: 0.14em;
+    }
+
+    .postTitle{
+        font-size: 0.22em;
+    }
+
+    .moveSection{
+        margin: 0;
+        margin-bottom: 105px;
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .secTitle{
+        font-size: 0.3em;
+        width: 820px;
+        padding: 0;
+        padding-left: 50px;
+    }
+
+    .imagem{
+        width: 380px;
+        height: 240px;
+    }
+
+    .body{
+        font-size: 0.12em;
+        line-height: 26px;
+    }
+
+    .content{
+        max-width: 768px;
+        height: 259px;
+    }
+
+    .postSec{
+        margin-bottom: -50px;
+    }
+
+    .author{
+        font-size: 0.1em;
+    }
+
+    .postTitle{
+        font-size: 0.18em;
+    }
+
+    .blogMainSec{
+        margin-left: 150px;
+    }
+
+    .cardSec{
+        height: 450px;
+        margin-bottom: 240px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .content{
+        flex-direction: column;
+        width: 400px;
+        height: 500px;
+        margin-left: 100px;
+    }
+
+    .cardSec{
+        flex-direction: row;
+        height: 1200px;
+        width: 250px;
+        margin-left: 80px;
+        margin-top: 300px;
+    }
+
+    .postSec{
+        width: 400px;
+    }
+
+    .dataContainer{
+        width: 380px;
+        margin-left: 0;
+    }
+
+    .secTitle{
+        width: 540px;
+    }
+
+    .blogMainSec{
+        margin: 0;
+    }
+
+    .moveSection{
+        margin-bottom: 500px;
+    }
+
+    .secTitle{
+        font-size: 0.25em;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .secTitle{
+        width: 120px;
+        padding-left: 250px;
+    }
+
+    .imagem{
+        width: 270px;
+        height: 160px;
+    }    
+
+    .postTitle{
+        width: 270px;
+        margin-bottom: 5px;
+    }
+
+    .author{
+        width: 270px;
+        margin-bottom: 15px;
+    }
+
+    .body{
+        width: 280px;
+
+    }
+
+    .content{
+        width: 270px;
+    }
+
+    .cardSec{
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,471 @@
+.section {
+    width: 86.11vw;
+    max-width: 1240px;
+    height: 813px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+
+.bigPac {
+    max-width: 1240px;
+    width: 86.11vw;
+    height: 490px;
+}
+
+.bigPac:hover {
+    border: 5px solid #FA8400;
+}
+
+.leftPac {
+    width: 27.77vw;
+    max-width: 400px;
+    height: 300px;
+}
+
+.leftPac:hover {
+    border: 5px solid #FA8400;
+}
+
+.middlePac {
+    width: 27.77vw;
+    max-width: 400px;
+    height: 300px;
+}
+
+.middlePac:hover {
+    border: 5px solid #FA8400;
+}
+
+
+.rightPac {
+    width: 27.77vw;
+    max-width: 400px;
+    height: 300px;
+}
+
+.rightPac:hover {
+    border: 5px solid #FA8400;
+}
+
+.carrossel {
+    width: 86.11vw;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutTitle {
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    max-width: 1240px;
+    display: flex;
+    justify-content: center;
+    color: #FA8400;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.about {
+    width: 86.11vw;
+    max-width: 1240px;
+    height: 692px;
+    display: flex;
+    margin-bottom: 118px;
+}
+
+.aboutText {
+    font-size: 0.2em;
+    width: 50.40vw;
+    max-width: 625px;
+    height: 692px;
+    line-height: 32px;
+    margin-right: 49px;
+    word-wrap: break-word;
+}
+
+.indent {
+    display: block;
+    margin-left: 45px;
+}
+
+.fliperama {
+    width: 45.64vw;
+    max-width: 566px;
+    height: 689px;
+}
+
+.carreira {
+    font-family: 'Press Start 2P';
+    color: #FA8400;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.proCard {
+    width: 1240px;
+    height: 333px;
+    margin-bottom: 100px;
+}
+
+.cardArea {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-bottom: 150px;
+    max-width: 1240px;
+}
+
+.home {
+    margin-left: 100px;
+    margin-bottom: 150px;
+    max-width: 1340px;
+    min-width: 1340px;
+}
+
+.aboutTitleHome {
+    padding-right: 100px;
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #FA8400;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.headerPosition {
+    margin-left: 0;
+}
+
+.homeContainer {
+    width: 100vw;
+    max-width: 1440px;
+}
+
+@media screen and (max-width: 1366px) {
+    .aboutText {
+        font-size: 0.16em;
+        line-height: 25.6px;
+        width: 540px;
+        margin-right: 80px;
+        padding-left: 30px;
+    }
+
+    .about {
+        width: 1440px;
+        margin-bottom: 30px;
+    }
+
+    .fliperama {
+        height: 600px;
+    }
+
+    .section {
+        height: 543px;
+    }
+
+    .bigPac {
+        height: 303px;
+    }
+
+    .leftPac {
+        height: 230px;
+    }
+
+    .middlePac {
+        height: 230px;
+    }
+
+    .rightPac {
+        height: 230px;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .proCard {
+        margin-left: -70px;
+    }
+
+    .fliperama {
+        margin-left: -70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        margin-left: -50px;
+    }
+
+    .carreira {
+        max-width: 1024px;
+        padding-left: 70px;
+    }
+
+    .cardArea {
+        width: 400px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 360px;
+    }
+
+    .proCard {
+        margin-bottom: 500px;
+    }
+
+    .about {
+        margin-left: -50px;
+    }
+
+    .fliperama {
+        width: 390.35px;
+    }
+
+    .aboutTitle {
+        max-width: 1024px;
+        margin-left: -60px;
+    }
+
+    .aboutText {
+        font-size: 0.14em;
+        padding-left: 70px;
+    }
+
+    .home {
+        margin-left: 70px;
+    }
+
+    .aboutTitleHome {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .aboutText {
+        padding-left: 50px;
+        margin-right: 30px;
+    }
+
+    .fliperama {
+        width: 360px;
+    }
+
+    .cardArea {
+        margin-left: 300px;
+    }
+
+    .carreira {
+        width: 912px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .aboutTitle {
+        font-size: 0.3em;
+        max-width: 820px;
+    }
+
+    .aboutText {
+        font-size: 0.12em;
+        line-height: 22px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .about {
+        margin-bottom: 0;
+    }
+
+    .fliperama {
+        width: 340px;
+        height: 500px;
+        margin-left: -80px;
+    }
+
+    .proCard {
+        margin-top: -100px;
+    }
+
+    .cardArea {
+        margin-left: 260px;
+    }
+
+    .carreira {
+        width: 820px;
+        font-size: 0.35em;
+    }
+
+    .aboutTitleHome {
+        max-width: 820px;
+        font-size: 0.3em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .section {
+        max-height: 403px;
+        margin-bottom: 80px;
+    }
+
+    .bigPac {
+        max-height: 233px;
+    }
+
+    .leftPac {
+        height: 160px;
+    }
+
+    .middlePac {
+        height: 160px;
+    }
+
+    .rightPac {
+        height: 160px;
+    }
+
+    .aboutTitle{
+        font-size: 0.25em;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+        transform: translateX(85px);
+    }
+
+    .aboutText{
+        padding: 0;
+        max-width: 400px;
+        margin: 0;
+        font-size: 0.12em;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+
+    .fliperama{
+        width: 400px;
+        height: 300px;
+        margin: 0;
+    }
+
+    .aboutTitle{
+        max-width: 540px;
+        padding-left: 50px;
+    }
+
+    .proCard{
+        margin-left: -230px;
+        margin-top: 60px;
+    }
+
+    .carreira{
+        font-size: 0.3em;
+    }
+
+    .aboutTitleHome{
+        max-width: 540px;
+    }
+
+    .home{
+        transform: translateX(-25px);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .homeContainer{
+        margin-left: -60px;
+    }
+
+    .bigPac{
+        width: 280px;
+        height: 143px;
+    }
+
+    .leftPac{
+        height: 80px;
+        width: 90px;
+    }
+
+    .middlePac{
+        height: 80px;
+        width: 90px;
+    }
+
+    .rightPac{
+        height: 80px;
+        width: 90px;
+    }
+
+    .section{
+        height: 228px;
+        width: 280px;
+        margin-left: 85px;
+    }
+
+    .carrossel{
+        width: 280px;
+    }
+
+    .fliperama{
+        width: 260px;
+        height: 280px;
+    }
+
+    .aboutText{
+        width: 280px;
+        font-size: 0.08em;
+        font-weight: bold;
+    }
+
+    .indent{
+        margin-left: 25px;
+    }
+
+    .about{
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    .aboutTitle{
+        font-size: 0.2em;
+        width: 260px;
+        margin-left: 70px;
+    }
+
+    .aboutTitleHome{
+        font-size: 0.2em;
+        width: 260px;
+        margin-left: 100px;
+        padding: 0;
+    }
+
+    .carreira{
+        font-size: 0.2em;
+        width: 430px;
+        padding: 0;
+        margin-left: 230px;
+    }
+
+    .home{
+        margin-left: 50px;
+        width: 430px;
+    }
+
+    .cardArea{
+        width: 280px;
+        margin-left: 310px;
+    }
+
+    .proCard{
+        margin-bottom: 380px;
+    }
+}

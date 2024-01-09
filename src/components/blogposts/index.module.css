@@ -1,0 +1,68 @@
+.blogCard{
+    width: 390px;
+    height: 332px;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.blogCard:hover{
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+
+.cardTitle{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #DFDFE4;
+    margin-top: 5px;
+}
+
+.cardTitle:hover{
+    color: white;
+}
+
+@media screen and (max-width: 1280px){
+    .cardTitle{
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .cardTitle{
+        font-size: 0.18em;
+        margin: 0;
+        margin-top: -20px;
+    }
+
+    .blogCard{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .cardImg{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .cardImg{
+        width: 250px;
+    }
+
+    .blogCard{
+        width: 250px;
+        height: 250px;
+    }
+
+    .cardTitle{
+        font-size: 0.14em;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .blogCard{
+        height: 220px;
+    }
+}

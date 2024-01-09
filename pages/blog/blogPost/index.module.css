@@ -1,0 +1,305 @@
+.postPageSec {
+    width: 1240px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.postPageTitle {
+    font-size: 32px;
+    line-height: 32px;
+    color: #DFDFE4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.postPageAuthor {
+    font-size: 14px;
+    color: #DFDFE4;
+    margin-bottom: 40px;
+}
+
+.lastPostContent {
+    font-size: 20px;
+    line-height: 32px;
+    color: #DFDFE4;
+    margin-bottom: 10px;
+}
+
+.pageMoved {
+    width: 1440px;
+    height: auto;
+}
+
+.postPageImage {
+    margin-left: 100px;
+}
+
+.postPageTitlePath {
+    font-size: 32px;
+    line-height: 32px;
+    color: #DFDFE4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.postPageAuthorPath {
+    font-size: 14px;
+    color: #DFDFE4;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.lastPostContentPath {
+    font-size: 20px;
+    line-height: 32px;
+    color: #DFDFE4;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.lastPostContentPathEnd {
+    font-size: 20px;
+    line-height: 32px;
+    color: #DFDFE4;
+    margin-bottom: 115px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+    .postPageSec {
+        margin-left: -70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .postPageSec {
+        margin-left: -80px;
+        max-width: 1024px;
+    }
+
+    .lastPostContent {
+        font-size: 0.16em;
+        width: 990px;
+    }
+
+    .postPageAuthor {
+        font-size: 0.12em;
+    }
+
+    .postPageTitle {
+        font-size: 0.28em;
+    }
+
+    .pageMoved {
+        max-width: 1024px;
+    }
+
+    .postPageTitlePath {
+        font-size: 0.26em;
+        margin-left: 30px;
+    }
+
+    .postPageAuthorPath {
+        font-size: 0.12em;
+        margin-left: 30px;
+    }
+
+    .lastPostContentPath {
+        font-size: 0.16em;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+    .lastPostContentPathEnd {
+        font-size: 0.16em;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+    .postPageImage {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .postPageSec {
+        max-width: 912px;
+        margin-left: -95px;
+    }
+
+    .lastPostContent{
+        max-width: 900px;
+    }
+
+    .pageMoved{
+        max-width: 915px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .postPageImg{
+        width: 768px;
+    }
+
+    .postPageImage{
+        width: 768px;
+    }
+
+    .postPageTitle{
+        font-size: 0.22em;
+        width: 768px;
+        margin-top: 0;
+    }
+
+    .postPageTitlePath{
+        font-size: 0.22em;
+        width: 768px;
+        margin-top: 0;
+    }
+
+    .postPageAuthor{
+        width: 768px;
+        margin-bottom: 30px;
+    }
+
+    .lastPostContent{
+        width: 748px;
+        font-size: 0.12em;
+        line-height: 22px;
+    }
+
+    .lastPostContentPath{
+        width: 748px;
+        font-size: 0.12em;
+        line-height: 22px;
+    }
+
+    .lastPostContentPathEnd{
+        width: 748px;
+        font-size: 0.12em;
+        line-height: 22px;
+    }
+
+    .postPageSec{
+        margin-bottom: 70px;
+        margin-top: -200px;
+    }
+
+    .pageMoved{
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .postPageSec{
+        margin-top: 500px;
+        margin-left: -25px;
+    }
+
+    .postPageImg{
+        width: 400px;
+        height: 180px;
+    }
+    
+    .postPageTitle{
+        width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .postPageAuthor{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .lastPostContent{
+        width: 400px;
+    }
+
+    .pageMoved{
+        margin-left: 390px;
+    }
+
+    .postPageImage{
+        width: 400px;
+        height: 180px;
+    }
+
+    .postPageTitlePath{
+        width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .postPageAuthorPath{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .lastPostContentPath{
+        width: 400px;
+    }
+
+    .lastPostContentPathEnd{
+        width: 400px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .postPageImg{
+        width: 270px;
+        height: 160px;
+    }
+
+    .postPageTitle{
+        width: 270px;
+        font-size: 0.14em;
+    }
+
+    .postPageAuthor{
+        width: 270px;
+        font-size: 0.08em;
+    }
+
+    .lastPostContent{
+        width: 270px;
+        font-size: 0.11em;
+        line-height: 18px;
+    }
+
+    .pageMoved{
+        margin-left: 490px;
+    }
+
+    .postPageImage{
+        width: 270px;
+        height: 160px;
+        margin-left: 90px;
+    }
+
+    .postPageTitlePath{
+        width: 270px;
+        font-size: 0.16em;
+        width: 270px;
+        margin-left: 90px;
+    }
+
+    .postPageAuthorPath{
+        font-size: 0.08em;
+        width: 270px;
+        margin-left: 90px;
+    }
+
+    .lastPostContentPath{
+        width: 270px;
+        margin-left: 90px;
+    }
+
+    .lastPostContentPathEnd{
+        width: 270px;
+        margin-left: 90px;
+    }
+}

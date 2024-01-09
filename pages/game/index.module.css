@@ -1,0 +1,377 @@
+.pacmanTitle {
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #FA8400;
+    margin-bottom: 20px;
+}
+
+.singleImg {
+    width: 86.11vw;
+    max-width: 1240px;
+}
+
+.purchase {
+    font-size: 20px;
+    width: 315px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.purchaseButton {
+    background-color: #FA8400;
+    width: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #023047;
+    transition: 0.2s;
+}
+
+.purchaseButton:hover {
+    background-color: #D16F00;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 86.11vw;
+    max-width: 1240px;
+    height: 468px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.firstParagraph {
+    max-width: 1240px;
+    font-size: 0.9em;
+}
+
+.midParagraph {
+    max-width: 1240px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+
+.thirdParagraph {
+    max-width: 1240px;
+    font-size: 0.9em;
+}
+
+.moveSection {
+    transform: translateX(100px);
+    max-width: 1240px;
+}
+
+.pacmanTitleMoved {
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #FA8400;
+    margin-bottom: 20px;
+}
+
+.descriptionPath{
+    width: 86.11vw;
+    max-width: 1240px;
+    height: 468px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+    .firstParagraph {
+        font-size: 0.8em;
+    }
+
+    .midParagraph {
+        font-size: 0.8em;
+    }
+
+    .thirdParagraph {
+        font-size: 0.8em;
+    }
+
+    .pacmanTitleMoved {
+        width: 1102.2px;
+    }
+
+    .descriptionPath{
+        width: 86.11vw;
+        max-width: 1240px;
+        height: 468px;
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .firstParagraph {
+        font-size: 0.7em;
+    }
+
+    .midParagraph {
+        font-size: 0.7em;
+    }
+
+    .thirdParagraph {
+        font-size: 0.7em;
+    }
+
+    .pacmanTitle {
+        width: 1024px;
+        padding-right: 150px;
+    }
+
+    .pacmanTitleMoved {
+        width: 1024px;
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .gameSection {
+        width: 912px;
+        margin-left: -80px;
+    }
+
+    .pacmanTitle {
+        width: 912px;
+        padding-right: 0px;
+    }
+
+    .firstParagraph {
+        width: 880px;
+    }
+
+    .midParagraph {
+        width: 880px;
+    }
+
+    .thirdParagraph {
+        width: 880px;
+    }
+
+    .singleImg{
+        width: 880px;
+    }
+
+    .moveSection{
+        max-width: 912px;
+        transform: translate(20px, 50px);
+    }
+
+    .descriptionPath{
+        max-width: 912px;
+        height: 468px;
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .pacmanTitle{
+        font-size: 0.35em;
+        width: 820px;
+    }
+
+    .singleImg{
+        width: 700px;
+        margin-left: 30px;
+    }
+
+    .value{
+        font-size: 0.8em;
+    }
+
+    .purchase{
+        margin-left: 30px;
+        height: 42px;
+        width: 235px;
+        font-size: 0.18em;
+    }
+
+    .purchaseButton{
+        height: 42px;
+        width: 109px;
+    }
+
+    .description{
+        width: 768px;
+        margin-top: 20px;
+        height: 398px;
+        margin-bottom: 0;
+    }
+
+    .firstParagraph{
+        width: 728px;
+        font-size: 0.55em;
+        margin-left: 30px;
+        line-height: 24px;
+    }
+
+    .midParagraph{
+        width: 728px;
+        font-size: 0.55em;
+        margin-left: 30px;
+        line-height: 24px;
+    }
+
+    .thirdParagraph{
+        width: 728px;
+        font-size: 0.55em;
+        margin-left: 30px;
+        line-height: 24px;
+    }
+
+    .moveSection{
+        max-width: 820px;
+    }
+
+    .pacmanTitleMoved{
+        font-size: 0.35em;
+        width: 820px;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .pacmanTitle{
+        max-width: 540px;
+        font-size: 0.3em;
+    }
+
+    .singleImg{
+        max-width: 430px;
+        height: 230px;
+        margin-left: 45px;
+    }
+
+    .value{
+        font-size: 0.8em;
+    }
+
+    .purchase{
+        margin-left: 45px;
+        margin-top: 0;
+    }
+
+    .firstParagraph{
+        max-width: 430px;
+        margin-left: 45px;
+        line-height: 22px;
+    }
+
+    .midParagraph{
+        max-width: 430px;
+        margin-left: 45px;
+        line-height: 22px;
+    }
+
+    .thirdParagraph{
+        max-width: 430px;
+        margin-left: 45px;
+        line-height: 22px;
+    }
+
+    .pacmanTitleMoved{
+        font-size: 0.3em;
+        max-width: 540px;
+    }
+
+    .moveSection{
+        transform: translateY(-15px);
+        margin-left: 50px;
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .pacmanTitle{
+        font-size: 0.2em;
+        width: 120px;
+        margin-left: 150px;
+    }
+
+    .singleImg{
+        width: 270px;
+        height: 160px;
+        margin-left: 70px;
+    }
+    
+    .gameSection{
+        width: 430px;
+    }
+
+    .purchase{
+        margin-left: 70px;
+        font-weight: bold;
+        height: 25px;
+        font-size: 0.14em;
+        width: 175px;
+    }
+
+    .purchaseButton{
+        height: 25px;
+        width: 80px;
+    }
+
+    .firstParagraph{
+        width: 270px;
+        font-size: 0.4em;
+        line-height: 16px;
+        font-weight: bold;
+        margin-left: 70px;
+    }
+
+    .midParagraph{
+        width: 270px;
+        font-size: 0.4em;
+        line-height: 16px;
+        font-weight: bold;
+        margin-left: 70px;
+    }
+
+    .thirdParagraph{
+        width: 270px;
+        font-size: 0.4em;
+        line-height: 16px;
+        font-weight: bold;
+        margin-left: 70px;
+    }
+
+    .moveSection{
+        width: 430px;
+        margin-bottom: 40px;
+    }
+
+    .pacmanTitleMoved{
+        font-size: 0.2em;
+        width: 140px;
+        padding: 0;
+        margin-left: 120px;
+    }
+
+    .descriptionPath{
+        margin-bottom: 0;
+    }
+}
