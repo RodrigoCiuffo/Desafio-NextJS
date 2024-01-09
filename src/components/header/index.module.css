@@ -166,6 +166,8 @@
     }
 
     .menu li{
+        font-size: 14px;
+        width: 59px;
         height: 42px;
     }
 
